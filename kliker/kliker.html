@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kliker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <title>Kliker</title>
+
+    <h1>Kliker z punktami</h1>
+    
+    <p id="counter">Punkty: <span id="points">0</span></p>
+    
+    <button id="przycisk" onclick="incrementPoints()">Kliknij mnie!</button>
+
+
+    <script>
+        let points = 0;
+
+        function incrementPoints() {
+            points++;
+            document.getElementById("points").innerText = points;
+        }
+    </script>
+</body>
+</html>

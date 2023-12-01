@@ -1,0 +1,16 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+#counter {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#przycisk {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
